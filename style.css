@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Public Sans", sans-serif;
+}
+body {
+  overflow-x: hidden;
+  background-color: #fafafa;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.logo {
+  display: flex;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  z-index: 1;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #c9c9c9;
+  font-weight: 600;
+}
+.my-Resume a {
+  text-decoration: none;
+  background: linear-gradient(
+    90deg,
+    rgba(97, 192, 142, 1) 37%,
+    rgba(45, 186, 202, 1) 76%
+  );
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: white;
+}
+
+/* banner-section */
+.banner-section {
+  display: flex;
+  height: 80vh;
+}
+.bg-content {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  margin-top: 50px;
+  width: 70%;
+}
+.content h1 {
+  font-size: 50px;
+  font-weight: 200;
+}
+.content p {
+  font-size: 18px;
+  font-weight: 200;
+  padding: 20px 0 0 0;
+  margin-bottom: 30px;
+}
+.content a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 200;
+  background: linear-gradient(
+    90deg,
+    rgba(97, 192, 142, 1) 37%,
+    rgba(45, 186, 202, 1) 76%
+  );
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 20px;
+}
+.bg-img {
+  position: relative;
+  top: -80px;
+  right: -150px;
+}
+
+.bg-img img {
+  width: 100%;
+  height: 100vh;
+}
+.bg-mobile {
+  position: absolute;
+  right: -320px;
+}
+.bg-mobile img {
+  width: 70%;
+  z-index: 1;
+}
+
+/* why-us */
+.why-us {
+  background-color: #f3f5f7;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.why-choose-content {
+  margin-top: 130px;
+  padding: 40px;
+}
+.why-choose-content h2 {
+  font-size: 30px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.why-choose-content p {
+  text-align: justify;
+  width: 60%;
+  font-weight: 200;
+}
+.cards-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.card {
+  width: 20%;
+}
+.card img {
+  display: block;
+  width: 50px;
+  margin-bottom: 20px;
+}
+.card h2 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.card p {
+  font-weight: 200;
+  text-align: left;
+}
+
+/* article-section */
+
+.article-section {
+  margin-top: 50px;
+  padding: 40px;
+}
+.art-headimg {
+  margin-bottom: 30px;
+}
+.article-container {
+  display: flex;
+  justify-content: space-between;
+}
+.cartart {
+  width: 24%;
+  /* height: 100%; */
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.artimg img {
+  width: 100%;
+  height: 160px;
+}
+.artcontent h6 {
+  padding: 10px;
+  font-size: 10px;
+  color: #c9c9c9;
+}
+.artcontent h4 {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.artcontent p {
+  padding: 10px;
+  font-size: 14px;
+  text-align: left;
+}
+.footer-section {
+  background-color: #2d314f;
+  height: 30vh;
+}
+.footer-main {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px 10px;
+  padding: 40px;
+}
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+.quick-links ul li {
+  list-style: none;
+  padding: 10px;
+}
+.quick-links li a {
+  text-decoration: none;
+  color: white;
+}
+.other-links ul li {
+  list-style: none;
+  padding: 10px;
+}
+.other-links li a {
+  text-decoration: none;
+  color: white;
+}
+.footer-logo img {
+  filter: invert(100%) brightness(1000%);
+  margin-bottom: 70px;
+}
+.invite-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.invite-button a {
+  text-decoration: none;
+  background: linear-gradient(
+    90deg,
+    rgba(97, 192, 142, 1) 37%,
+    rgba(45, 186, 202, 1) 76%
+  );
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: white;
+}
+.invite-btn {
+  display: flex; /* to make flex direction work*/
+  flex-direction: column; /* to make the rows into column*/
+  gap: 50px; /* to have gap between the columns*/
+}
+.invite-btn h5 {
+  color: white;
+  text-align: right;
+}
